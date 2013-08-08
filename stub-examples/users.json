@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "GET",
+    "path": "/users/list"
+  },
+
+  "response": {
+    "headers": [{"name": "Content-Type", "value": "application/json"}],
+    "status": 200,
+    "body": {
+    "user": [
+        {
+            "id": "1",
+            "firstname": "John",
+            "lastname": "Doe",
+            "email": "some@where.com"
+        },
+        {
+            "id": "2",
+            "firstname": "Jane",
+            "lastname": "Doh",
+            "email": "jane2doh.com"
+        }
+    ]
+}
+  }
+}

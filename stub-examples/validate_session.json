@@ -1,0 +1,12 @@
+{
+  "request": {
+    "method": "GET",
+    "path": "/sessions/validate"
+  },
+
+  "response": {
+    "headers": [{"name": "Content-Type", "value": "application/json"}],
+    "status": 200,
+    "body":  {"boolean" : true}
+  }
+}
